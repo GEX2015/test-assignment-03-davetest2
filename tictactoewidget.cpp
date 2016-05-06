@@ -51,15 +51,10 @@ void TicTacToeWidget::setUpBoard()
     QGridLayout *gridLayout = new QGridLayout;
     QSignalMapper *mapper = new QSignalMapper(this);
 
-
     QFont font;
     font.setPointSize(48);
     font.setBold(true);
     font.setWeight(75);
-
-
-
-
 
     for (int row = 0; row < 3; ++row) {
         for (int col=0; col < 3; ++col) {
